@@ -1,77 +1,115 @@
-<p align="center">
-  <a href="https://laravel.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
----
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing)
-- [Powerful dependency injection container](https://laravel.com/docs/container)
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent)
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations)
-- [Robust background job processing](https://laravel.com/docs/queues)
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting)
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
----
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You can also try the [Laracasts](https://laracasts.com) platform, which contains thousands of video tutorials on Laravel, modern PHP, unit testing, and JavaScript.
-
-Additionally, [Laravel Learn](https://laravel.com/learn) offers bite-sized lessons with real-world projects, guiding you through building a Laravel application from scratch while learning PHP fundamentals.
-
----
-
-## Agentic Development
-
-Laravel's predictable structure and conventions make it ideal for AI coding agents like **Claude Code**, **Cursor**, and **GitHub Copilot**.
-
-Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
-
-```bash
-composer require laravel/boost --dev
-php artisan boost:install
-```
-
-Boost provides your agent 15+ tools and skills that help build Laravel applications while following best practices.
-
----
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
----
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
----
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
----
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Verde Luxe Market
+A modern and responsive e-commerce marketplace built with Laravel 12. Verde Luxe Market provides a clean shopping experience with product management, order handling, wishlist functionality, customer reviews, and an admin dashboard.
+________________________________________
+📌 Project Overview
+Verde Luxe Market is designed to simulate a real-world online shopping platform where users can browse products, manage orders, add items to wishlist, and communicate with the store through a contact system. The project follows a structured MVC architecture using Laravel and demonstrates backend development, database management, and responsive frontend integration.
+________________________________________
+✨ Features
+•	User-friendly e-commerce interface
+•	Product listing and management
+•	Category management system
+•	Shopping order handling
+•	Wishlist functionality
+•	Customer reviews system
+•	Contact form with email response support
+•	Admin dashboard for management
+•	Responsive design for different screen sizes
+•	Secure Laravel backend architecture
+________________________________________
+🛠️ Technologies Used
+Backend
+•	PHP 8.2
+•	Laravel 12
+•	Laravel Sanctum
+•	MVC Architecture
+Frontend
+•	HTML5
+•	CSS3
+•	JavaScript
+•	Tailwind CSS
+•	Vite
+Database
+•	MySQL / SQLite
+________________________________________
+📂 Project Structure
+app/
+ ├── Http/Controllers/
+ ├── Models/
+ ├── Mail/
+bootstrap/
+database/
+public/
+resources/
+routes/
+storage/
+________________________________________
+🧩 Main Modules
+🛒 Product Management
+Allows products to be created, updated, displayed, and managed efficiently.
+📦 Order Management
+Handles customer orders and order item processing.
+❤️ Wishlist System
+Users can save products to their wishlist for future purchases.
+⭐ Review System
+Customers can provide feedback and reviews on products.
+📧 Contact & Email Module
+Users can send messages through the contact form and receive responses via email.
+🛠️ Admin Panel
+Admin can manage products, orders, categories, and customer interactions.
+________________________________________
+⚙️ Installation Guide
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/verde-luxe-market.git
+cd verde-luxe-market
+2️⃣ Install Dependencies
+composer install
+npm install
+3️⃣ Configure Environment
+Copy the environment file:
+cp .env.example .env
+Generate application key:
+php artisan key:generate
+________________________________________
+🗄️ Database Setup
+Run migrations:
+php artisan migrate
+________________________________________
+▶️ Run the Project
+Start Laravel server:
+php artisan serve
+Run frontend development server:
+npm run dev
+Open in browser:
+http://127.0.0.1:8000
+________________________________________
+🧠 Architecture Used
+The project loosely follows the MVC (Model-View-Controller) architecture:
+•	Models handle database operations
+•	Views manage frontend UI
+•	Controllers process business logic and user requests
+This architecture improves maintainability, scalability, and code organization.
+________________________________________
+🔐 Security Features
+•	Laravel authentication structure
+•	CSRF protection
+•	Form validation
+•	Secure routing system
+•	Environment-based configuration
+________________________________________
+🚀 Future Improvements
+•	Online payment gateway integration
+•	Advanced search and filtering
+•	Real-time order tracking
+•	Product recommendation system
+•	Multi-vendor support
+•	AI-based customer assistance
+•	Mobile application support
+________________________________________
+📸 Demo video link:
+https://drive.google.com/file/d/1KWjAHv1cgZwYGtC7tp1PEj9y0NJmFuGp/view?usp=drivesdk
+________________________________________
+👨💻 Developed By
+Aroosa
+________________________________________
+📄 License
+This project is developed for educational and learning purposes.
